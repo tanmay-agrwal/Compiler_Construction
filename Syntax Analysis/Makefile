@@ -10,7 +10,7 @@ TARGET = a.out
 all: $(TARGET)
 
 $(TARGET): $(BISON_C) $(FLEX_C)
-	gcc $(BISON_C) $(FLEX_C) -lfl -o $(TARGET)
+	gcc $(BISON_C) $(FLEX_C) -lfl
 
 $(BISON_C) $(BISON_H): $(BISON_FILE)
 	bison -d $(BISON_FILE)
