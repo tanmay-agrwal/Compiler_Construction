@@ -1,0 +1,13 @@
+/AST/*.out
+/AST/*.tab.c
+/AST/*.tab.h
+/AST/lex.yy.c
+/AST/input.txt
+
+/Syntax Analysis/*.out
+/Syntax Analysis/*.tab.c
+/Syntax Analysis/*.tab.h
+/Syntax Analysis/lex.yy.c
+/Syntax Analysis/input.
+
+\.vscode
