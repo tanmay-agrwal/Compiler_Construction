@@ -1,6 +1,9 @@
-## How to compile and run (for both)
+## How to compile and run AST
 ```bash
-./run.sh
+bison -d ast.y
+flex ast.l
+gcc ast.tab.c lex.yy.c ast.c -lfl
+./a.out input.txt
 ```
 OR
 ```bash
