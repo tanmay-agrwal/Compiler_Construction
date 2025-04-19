@@ -1,4 +1,18 @@
-## How to compile and run AST
+## Compile and Run Syntax Analysis
+```bash
+bison -d file.y
+flex file.l
+gcc file.tab.c lex.yy.c -lfl
+./a.out input.txt
+```
+OR
+```bash
+make
+./a.out input.txt
+```
+-------------
+
+## Compile and Run AST
 ```bash
 bison -d ast.y
 flex ast.l
