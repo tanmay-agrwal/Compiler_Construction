@@ -1,4 +1,8 @@
-## Running codes (for both)
+## How to compile and run (for both)
+```bash
+./run.sh
+```
+OR
 ```bash
 make
 ./a.out input.txt
